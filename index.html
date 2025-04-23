@@ -15,16 +15,16 @@
         }
         .icon-grid {
             display: grid;
-            grid-template-columns: repeat(2, 100px); /* 上下2列、左右2列のグリッド */
-            grid-gap: 20px; /* アイコン間のスペース */
+            grid-template-columns: repeat(2, 200px);
+            grid-gap: 20px;
             margin-bottom: 20px;
         }
         .icon-link {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             border-radius: 10px;
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
             text-decoration: none;
@@ -36,13 +36,8 @@
             max-height: 80%;
             object-fit: contain;
         }
-        .calendar-container {
-            width: 100%;
-            max-width: 600px; /* カレンダーの最大幅 */
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-            padding: 15px;
+        .icon-link span{
+          display: none;
         }
     </style>
 </head>
@@ -53,19 +48,14 @@
             <img src="https://drive.google.com/uc?export=view&id=1-pWTEaFyJaWyZRZ5lEYMpyrRCYJdFnze" alt="AI相談">
         </a>
         <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" class="icon-link" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=10Y7WVGh1l0FT37x7zAs3ChHEcIqyV3WC" alt="Gメール">
+            <img src="https://drive.com/uc?export=view&id=10Y7WVGh1l0FT37x7zAs3ChHEcIqyV3WC" alt="Gメール">
         </a>
         <a href="https://docs.google.com/spreadsheets/d/1UqvSePffTnSae3fs8487i30a1hWZOeYcz3IYXaxa-2A/edit?gid=0#gid=0" class="icon-link" target="_blank">
             <img src="https://drive.google.com/uc?export=view&id=1xsWY6igj-iQNjNHJH5SNqNzO0k7GEXY0" alt="掲示板">
         </a>
         <a href="https://calendar.google.com/calendar/u/0/r?hl=ja&pli=1" class="icon-link" target="_blank">
-           <img src="https://drive.google.com/uc?export=view&id=1Khj4nffRD-Q9SB64G1_SIh0LlSAsfHT_" alt="カレンダー">
+            <img src="https://drive.google.com/uc?export=view&id=1Khj4nffRD-Q9SB64G1_SIh0LlSAsfHT_" alt="カレンダー">
         </a>
-    </div>
-
-    <div class="calendar-container">
-        <h2>カレンダー</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?src=suchope3%40gmail.com&ctz=Asia/Tokyo" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
     </div>
 </body>
 </html>
